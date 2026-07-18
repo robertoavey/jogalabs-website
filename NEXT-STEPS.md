@@ -102,7 +102,7 @@ jogalabs-website/
 ### Do next (highest impact first)
 1. **Google Business Profile** — the #1 local SEO lever. Create/claim "Joga Labs" with the Southlake address, add photos, your schedule, and get parents to leave reviews. Reviews mentioning "futsal" and city names are gold.
 2. **Google Search Console** — verify jogalab.com, submit your sitemap (`jogalab.com/sitemap.xml` — your SEO plugin generates it). You'll see exactly which searches you appear for.
-3. **Consistent NAP** — your Name/Address/Phone must be identical everywhere: site footer, Google, Facebook, league pages. Right now use: Joga Labs, 250 Players Cir, Southlake, TX 76092, (214) 206-6151.
+3. **Consistent NAP** — your Name/Address/Phone must be identical everywhere: site footer, Google, Facebook, league pages. Right now use: Joga Labs, 250 Players Cir, Southlake, TX 76092, (817) 546-5994.
 4. **Local citations** — list the club on Bing Places, Apple Maps, Yelp, and youth-sports directories (SincSports, local chamber, Keller/Southlake community sites).
 5. **Backlinks from the league** — ask Chaos Sports Performance and LeagueLobster to link "Joga Labs" to jogalab.com on their pages. Local, relevant links beat everything.
 6. **Post match recaps** — a short weekly "Club News" post ("Joga Labs Red 5–3 Hurst United...") keeps the site fresh, targets long-tail searches, and gives parents something to share.
