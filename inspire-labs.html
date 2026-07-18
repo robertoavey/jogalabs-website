@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Autism Soccer Lessons Fort Worth & Keller TX | Inspire Labs — Joga Labs®</title>
+<meta name="description" content="Expert-led autism soccer training in Fort Worth & Keller, TX. Structured, fun sessions that help neurodiverse athletes build skills, confidence & teamwork.">
+<link rel="canonical" href="https://jogalab.com/autism-soccer-lessons-keller-north-fort-worth/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0d1155;--navy-2:#171c6e;--deep:#070a33;
+    --sky:#38b6ff;--sky-d:#1795e0;
+    --cream:#f7f2e7;--bg:#ffffff;--soft:#f5f7fc;
+    --ink:#141a2e;--muted:#5a6376;--line:#e5e8f2;
+    --shadow:0 14px 44px -16px rgba(13,17,85,.18);
+    --dfont:'Barlow Condensed',Impact,sans-serif;
+    --bfont:'Inter',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{font-family:var(--bfont);background:var(--bg);color:var(--ink);line-height:1.7;-webkit-font-smoothing:antialiased;overflow-x:hidden;}
+  a{color:inherit;text-decoration:none;}
+  img{max-width:100%;display:block;}
+  .wrap{max-width:1220px;margin:0 auto;padding:0 32px;}
+  section{position:relative;}
+
+  /* ---- type ---- */
+  .d1{font-family:var(--dfont);font-weight:700;text-transform:uppercase;line-height:.95;letter-spacing:.5px;}
+  .d2{font-family:var(--dfont);font-weight:700;text-transform:uppercase;line-height:1;letter-spacing:.5px;font-size:clamp(34px,4vw,52px);color:var(--navy);}
+  .lbl{display:inline-flex;align-items:center;gap:12px;font-size:12.5px;font-weight:800;letter-spacing:3px;text-transform:uppercase;color:var(--sky-d);margin-bottom:16px;}
+  .lbl::before{content:"";width:30px;height:3px;background:var(--sky);}
+  .lbl.on-dark{color:var(--sky);}
+  .lead{color:var(--muted);font-size:16.5px;}
+
+  /* ---- buttons ---- */
+  .btn{display:inline-block;font-family:var(--dfont);font-weight:600;text-transform:uppercase;letter-spacing:1.6px;font-size:16px;padding:15px 32px;transition:all .2s ease;}
+  .btn--sky{background:var(--sky);color:#fff;}
+  .btn--sky:hover{background:var(--navy);}
+  .btn--navy{background:var(--navy);color:#fff;}
+  .btn--navy:hover{background:var(--sky);}
+  .btn--line{border:2px solid rgba(255,255,255,.55);color:#fff;}
+  .btn--line:hover{border-color:var(--sky);color:var(--sky);}
+  .btn--dline{border:2px solid var(--navy);color:var(--navy);}
+  .btn--dline:hover{background:var(--navy);color:#fff;}
+
+  /* ---- ticker ---- */
+  .ticker{background:var(--deep);color:var(--cream);overflow:hidden;border-bottom:3px solid var(--sky);}
+  .ticker-track{display:flex;width:max-content;animation:tick 28s linear infinite;}
+  .ticker span{font-family:var(--dfont);font-weight:600;text-transform:uppercase;letter-spacing:2.5px;font-size:13.5px;padding:8px 0;white-space:nowrap;}
+  .ticker b{color:var(--sky);padding:0 18px;font-weight:600;}
+  @keyframes tick{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+  /* ---- header ---- */
+  header{position:sticky;top:0;z-index:200;background:rgba(255,255,255,.96);backdrop-filter:blur(14px);border-bottom:1px solid var(--line);}
+  .nav{display:flex;align-items:center;justify-content:space-between;gap:26px;padding:14px 32px;max-width:1220px;margin:0 auto;}
+  .brand img{height:52px;width:auto;}
+  nav.links{display:flex;align-items:center;gap:30px;}
+  nav.links>a,.has-drop>a{font-family:var(--dfont);font-weight:600;font-size:16.5px;text-transform:uppercase;letter-spacing:1.4px;color:var(--navy);padding:6px 0;border-bottom:2px solid transparent;transition:all .2s;}
+  nav.links>a:hover,.has-drop>a:hover{color:var(--sky-d);border-bottom-color:var(--sky);}
+  .has-drop{position:relative;}
+  .has-drop>a::after{content:" \25BE";font-size:11px;color:var(--sky);}
+  .dropdown{position:absolute;top:100%;left:-14px;background:#fff;border:1px solid var(--line);border-top:3px solid var(--sky);box-shadow:var(--shadow);min-width:225px;display:none;z-index:300;}
+  .has-drop:hover .dropdown{display:block;}
+  .dropdown a{display:block;padding:13px 20px;font-size:14px;font-weight:600;color:var(--ink);border-bottom:1px solid var(--line);}
+  .dropdown a:last-child{border-bottom:none;}
+  .dropdown a:hover{background:var(--soft);color:var(--sky-d);}
+  .nav-cta{font-family:var(--dfont);font-weight:600;text-transform:uppercase;letter-spacing:1.6px;font-size:15.5px;background:var(--sky);color:#fff;padding:12px 26px;transition:background .2s;}
+  .nav-cta:hover{background:var(--navy);}
+
+  /* ---- hero ---- */
+  .hero{position:relative;color:#fff;background:var(--deep);}
+  .hero-bg{position:absolute;inset:0;background:url('assets/img_1282.jpg') center 30%/cover no-repeat;opacity:.42;}
+  .hero-fade{position:absolute;inset:0;background:linear-gradient(95deg,rgba(7,10,51,.96) 22%,rgba(13,17,85,.72) 58%,rgba(7,10,51,.35));}
+  .hero-inner{position:relative;max-width:1220px;margin:0 auto;padding:120px 32px 150px;}
+  .hero h1{font-size:clamp(64px,9vw,132px);color:#fff!important;margin:10px 0 22px;}
+  .hero h1 .sky{color:var(--sky);}
+  .hero .sub{font-size:18.5px;color:#cdd6ef;max-width:600px;margin-bottom:38px;}
+  .hero-actions{display:flex;gap:16px;flex-wrap:wrap;}
+  .hero-badges{display:flex;gap:10px;flex-wrap:wrap;margin-top:46px;}
+  .hero-badges span{border:1px solid rgba(255,255,255,.3);color:#cdd6ef;font-size:12.5px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;padding:8px 16px;}
+  /* stat strip overlapping hero bottom */
+  .statstrip{position:relative;max-width:1220px;margin:-74px auto 0;padding:0 32px;z-index:5;}
+  .statstrip-inner{background:var(--cream);border-top:4px solid var(--sky);box-shadow:var(--shadow);display:grid;grid-template-columns:repeat(4,1fr);}
+  .stat{padding:30px 26px;border-right:1px solid rgba(13,17,85,.12);}
+  .stat:last-child{border-right:none;}
+  .stat b{font-family:var(--dfont);font-weight:700;font-size:38px;color:var(--navy);display:block;line-height:1;}
+  .stat span{font-size:12.5px;font-weight:700;letter-spacing:1.4px;text-transform:uppercase;color:#6d6a5e;}
+
+  /* ---- announce ---- */
+  .announce{max-width:1220px;margin:34px auto 0;padding:0 32px;}
+  .announce-inner{background:var(--navy);color:#fff;display:flex;align-items:center;justify-content:space-between;gap:18px;padding:16px 26px;flex-wrap:wrap;border-left:5px solid var(--sky);}
+  .announce p{font-size:15px;font-weight:600;}
+  .announce p b{font-family:var(--dfont);text-transform:uppercase;letter-spacing:2px;color:var(--sky);font-weight:600;margin-right:12px;}
+  .announce a{font-family:var(--dfont);text-transform:uppercase;letter-spacing:1.6px;background:var(--sky);color:#fff;font-size:14.5px;padding:9px 20px;white-space:nowrap;}
+  .announce a:hover{background:#fff;color:var(--navy);}
+
+  /* ---- section heads ---- */
+  .shead{max-width:720px;margin-bottom:52px;}
+  .shead.center{margin-left:auto;margin-right:auto;text-align:center;}
+  .shead.center .lbl{justify-content:center;}
+  .shead p{color:var(--muted);font-size:16px;margin-top:12px;}
+
+  /* ---- program cards ---- */
+  .pgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;}
+  .pcard{position:relative;display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);transition:transform .25s,box-shadow .25s;overflow:hidden;}
+  .pcard:hover{transform:translateY(-8px);box-shadow:var(--shadow);}
+  .pcard-media{aspect-ratio:4/3;background:var(--soft);display:flex;align-items:center;justify-content:center;padding:30px;border-bottom:4px solid var(--navy);overflow:hidden;position:relative;}
+  .pcard-media.photo{padding:0;}
+  .pcard-media img{max-height:100%;object-fit:contain;transition:transform .35s;}
+  .pcard-media.photo img{width:100%;height:100%;object-fit:cover;}
+  .pcard:hover .pcard-media img{transform:scale(1.05);}
+  .pcard:hover .pcard-media{border-bottom-color:var(--sky);}
+  .pcard-num{position:absolute;top:14px;right:16px;font-family:var(--dfont);font-weight:700;font-size:44px;line-height:1;color:transparent;-webkit-text-stroke:1.5px rgba(13,17,85,.35);}
+  .pcard-body{padding:26px 26px 30px;display:flex;flex-direction:column;flex:1;}
+  .pcard-body h3{font-family:var(--dfont);font-weight:700;text-transform:uppercase;letter-spacing:.8px;font-size:24px;color:var(--navy);margin-bottom:8px;}
+  .pcard-body p{color:var(--muted);font-size:14.5px;flex:1;margin-bottom:18px;}
+  .pcard-body .go{font-family:var(--dfont);font-weight:600;text-transform:uppercase;letter-spacing:1.6px;font-size:15px;color:var(--sky-d);}
+  .pcard:hover .go{color:var(--navy);}
+
+  /* ---- splits ---- */
+  .split{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;}
+  .media-frame{position:relative;overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow);background:#000;}
+  .media-frame::after{content:"";position:absolute;top:0;left:0;width:0;height:0;border-top:26px solid var(--sky);border-right:26px solid transparent;z-index:2;}
+  .media-frame iframe{width:100%;aspect-ratio:16/9;border:0;display:block;}
+  .media-frame img{width:100%;display:block;}
+  .media-frame.pad{background:var(--soft);padding:44px;display:flex;align-items:center;justify-content:center;}
+
+  /* ---- ghost pillars ---- */
+  .gpillar{display:flex;gap:20px;padding:20px 0;border-bottom:1px solid var(--line);}
+  .gpillar:last-child{border-bottom:none;}
+  .gnum{font-family:var(--dfont);font-weight:700;font-size:52px;line-height:1;color:transparent;-webkit-text-stroke:1.5px var(--sky);flex:0 0 62px;}
+  .gpillar b{font-family:var(--dfont);font-weight:700;text-transform:uppercase;letter-spacing:1px;font-size:19px;color:var(--navy);display:block;margin-bottom:2px;}
+  .gpillar span{color:var(--muted);font-size:14px;}
+
+  /* ---- quote band ---- */
+  .quote{background:var(--navy);color:var(--cream);padding:110px 32px;position:relative;overflow:hidden;}
+  .quote::before{content:"\201C";position:absolute;top:-60px;left:20px;font-family:var(--dfont);font-size:420px;line-height:1;color:rgba(56,182,255,.14);}
+  .quote blockquote{max-width:980px;margin:0 auto;text-align:center;}
+  .quote blockquote p{font-family:var(--dfont);font-weight:600;text-transform:uppercase;font-size:clamp(30px,4.4vw,54px);line-height:1.12;letter-spacing:.5px;color:var(--cream);}
+  .quote blockquote p em{font-style:normal;color:var(--sky);}
+  .quote cite{display:block;margin-top:26px;font-style:normal;font-size:13.5px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:#9fb0d8;}
+
+  /* ---- chips ---- */
+  .chip{background:#fff;border:1px solid var(--line);color:var(--navy);font-size:13px;font-weight:700;padding:9px 18px;}
+  .chip:hover{border-color:var(--sky);color:var(--sky-d);}
+
+  /* ---- gallery ---- */
+  .ggrid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;}
+  .gitem{position:relative;overflow:hidden;aspect-ratio:16/10;cursor:pointer;background:var(--deep);border:1px solid var(--line);}
+  .gitem img{width:100%;height:100%;object-fit:cover;transition:transform .4s,opacity .3s;}
+  .gitem:hover img{transform:scale(1.06);opacity:.75;}
+  .gcap{position:absolute;left:0;right:0;bottom:0;padding:30px 18px 14px;background:linear-gradient(transparent,rgba(7,10,51,.9));color:#fff;font-family:var(--dfont);font-weight:600;text-transform:uppercase;letter-spacing:1.6px;font-size:15.5px;}
+  .gcap::before{content:"";display:inline-block;width:18px;height:3px;background:var(--sky);margin-right:10px;vertical-align:middle;}
+  .gitem.gv::after{content:"\25B6";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:58px;height:58px;background:var(--sky);color:#fff;display:flex;align-items:center;justify-content:center;font-size:19px;padding-left:5px;box-shadow:0 10px 30px rgba(0,0,0,.4);}
+  .lightbox{position:fixed;inset:0;background:rgba(7,10,51,.95);z-index:500;display:none;align-items:center;justify-content:center;padding:4vw;}
+  .lightbox.open{display:flex;}
+  .lb-content{max-width:980px;width:100%;}
+  .lightbox iframe{width:100%;aspect-ratio:16/9;border:0;}
+  .lightbox video{width:100%;max-height:82vh;background:#000;}
+  .lightbox img{max-height:82vh;margin:0 auto;object-fit:contain;}
+  .lb-close{position:fixed;top:22px;right:30px;color:#fff;font-size:38px;cursor:pointer;background:none;border:none;line-height:1;}
+
+  /* ---- schedule ---- */
+  .sched{border:1px solid var(--line);background:#fff;box-shadow:var(--shadow);}
+  .sched-head{display:flex;justify-content:space-between;align-items:center;gap:14px;background:var(--navy);color:#fff;padding:18px 28px;flex-wrap:wrap;}
+  .sched-head h3{font-family:var(--dfont);font-weight:700;text-transform:uppercase;letter-spacing:1.6px;font-size:21px;color:#fff;}
+  .sched-head span{font-size:12.5px;letter-spacing:1.6px;text-transform:uppercase;color:var(--sky);font-weight:700;}
+  .srow{display:grid;grid-template-columns:120px 1fr auto;gap:20px;align-items:center;padding:18px 28px;border-bottom:1px solid var(--line);}
+  .srow:last-child{border-bottom:none;}
+  .srow:hover{background:var(--soft);}
+  .stime{font-family:var(--dfont);font-weight:700;font-size:26px;color:var(--navy);line-height:1;}
+  .stime small{display:block;font-size:12px;font-family:var(--bfont);font-weight:700;letter-spacing:1.4px;color:var(--sky-d);text-transform:uppercase;}
+  .sopp{font-weight:700;font-size:15.5px;color:var(--ink);}
+  .sopp small{display:block;font-weight:500;color:var(--muted);font-size:13px;}
+  .stag{font-family:var(--dfont);font-weight:600;text-transform:uppercase;letter-spacing:1.4px;font-size:13.5px;padding:5px 14px;}
+  .stag--black{background:var(--deep);color:#fff;}
+  .stag--red{background:#c0392b;color:#fff;}
+  .stag--derby{background:var(--sky);color:#fff;}
+  .practice{background:var(--cream);border:1px solid rgba(13,17,85,.14);border-top:4px solid var(--navy);padding:30px;}
+  .practice h3{font-family:var(--dfont);font-weight:700;text-transform:uppercase;letter-spacing:1.2px;font-size:21px;color:var(--navy);margin-bottom:14px;}
+  .prow{display:flex;justify-content:space-between;gap:10px;padding:12px 0;border-bottom:1px solid rgba(13,17,85,.12);font-size:14.5px;}
+  .prow b{color:var(--navy);}
+  .prow span{color:#6d6a5e;font-weight:600;}
+  .venue-note{margin-top:18px;font-size:13.5px;color:#6d6a5e;}
+  .venue-note b{color:var(--navy);display:block;}
+  .venue-note a{color:var(--sky-d);font-weight:700;}
+
+  /* ---- cta ---- */
+  .cta-panel{position:relative;color:#fff;background:var(--deep);overflow:hidden;}
+  .cta-bg{position:absolute;inset:0;background:url('assets/img_1568.jpg') center 30%/cover no-repeat;opacity:.35;}
+  .cta-fade{position:absolute;inset:0;background:linear-gradient(95deg,rgba(7,10,51,.95) 30%,rgba(13,17,85,.6));}
+  .cta-in{position:relative;max-width:1220px;margin:0 auto;padding:96px 32px;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap;}
+  .cta-in h2{font-family:var(--dfont);font-weight:700;text-transform:uppercase;font-size:clamp(38px,5vw,64px);line-height:.98;color:#fff;}
+  .cta-in h2 .sky{color:var(--sky);}
+  .cta-in p{color:#cdd6ef;font-size:16px;margin-top:14px;max-width:520px;}
+
+  /* ---- footer ---- */
+  footer{background:var(--deep);color:#a9b4d4;}
+  .foot-top{border-top:4px solid var(--sky);}
+  .foot-grid{max-width:1220px;margin:0 auto;padding:74px 32px 50px;display:grid;grid-template-columns:1.35fr 1fr 1fr 1.25fr;gap:46px;border-bottom:1px solid rgba(255,255,255,.1);}
+  .foot-logo{background:#fff;padding:18px 22px;display:inline-block;}
+  .foot-logo img{height:64px;width:auto;}
+  .foot-brand p{font-size:13.5px;margin-top:18px;max-width:300px;}
+  .foot-social{display:flex;gap:10px;margin-top:18px;}
+  .foot-social a{border:1px solid rgba(255,255,255,.25);padding:8px 14px;font-size:12.5px;font-weight:700;letter-spacing:1px;text-transform:uppercase;}
+  .foot-social a:hover{border-color:var(--sky);color:var(--sky);}
+  .foot-col h5{font-family:var(--dfont);font-weight:700;text-transform:uppercase;letter-spacing:2px;font-size:16px;color:#fff;margin-bottom:18px;}
+  .foot-col h5::after{content:"";display:block;width:26px;height:3px;background:var(--sky);margin-top:8px;}
+  .foot-col a{display:block;font-size:14px;margin-bottom:10px;transition:color .2s;}
+  .foot-col a:hover{color:var(--sky);}
+  .foot-cities{display:grid;grid-template-columns:1fr 1fr;gap:0 18px;}
+  .foot-cities a{font-size:13px;margin-bottom:9px;}
+  .foot-bottom{max-width:1220px;margin:0 auto;padding:24px 32px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;font-size:12.5px;}
+  .foot-bottom a:hover{color:var(--sky);}
+
+  /* ---- forms ---- */
+  .join-form{max-width:820px;margin:0 auto;background:#fff;border:1px solid var(--line);border-top:4px solid var(--sky);padding:46px;box-shadow:var(--shadow);}
+  .join-form .grid2{display:grid;grid-template-columns:1fr 1fr;gap:0 22px;}
+  .join-form label{font-size:12px;font-weight:800;color:var(--navy);letter-spacing:.8px;text-transform:uppercase;display:block;margin:16px 0 6px;}
+  .join-form label em{color:var(--sky-d);font-style:normal;}
+  .join-form input,.join-form select,.join-form textarea{width:100%;padding:13px 14px;border:1px solid #ccd3e4;font-family:var(--bfont);font-size:14.5px;color:var(--ink);background:#fff;}
+  .join-form input:focus,.join-form select:focus,.join-form textarea:focus{outline:2px solid var(--sky);outline-offset:-1px;}
+  .join-form button{width:100%;margin-top:28px;background:var(--sky);color:#fff;padding:17px;border:none;font-family:var(--dfont);font-weight:600;text-transform:uppercase;letter-spacing:2px;font-size:17px;cursor:pointer;transition:background .2s;}
+  .join-form button:hover{background:var(--navy);}
+  .join-form .disclaimer{font-size:12.5px;color:var(--muted);margin-top:14px;text-align:center;}
+  .info-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;max-width:1220px;margin:44px auto 0;}
+  .icard{background:#fff;border:1px solid var(--line);border-top:4px solid var(--navy);padding:30px;box-shadow:0 6px 20px -10px rgba(13,17,85,.12);}
+  .icard h3{font-family:var(--dfont);font-weight:700;text-transform:uppercase;letter-spacing:1.2px;font-size:19px;color:var(--navy);margin-bottom:8px;}
+  .icard p{color:var(--muted);font-size:14.5px;}
+  .icard a{color:var(--sky-d);font-weight:800;}
+
+  /* ---- faq ---- */
+  .faq-item{border:1px solid var(--line);border-left:4px solid var(--sky);background:#fff;margin-bottom:14px;box-shadow:0 4px 16px -10px rgba(13,17,85,.12);}
+  .faq-item summary{cursor:pointer;list-style:none;padding:20px 52px 20px 24px;font-weight:800;font-size:15.5px;color:var(--navy);position:relative;}
+  .faq-item summary::-webkit-details-marker{display:none;}
+  .faq-item summary::after{content:"+";position:absolute;right:22px;top:50%;transform:translateY(-50%);font-size:22px;font-weight:800;color:var(--sky-d);}
+  .faq-item[open] summary::after{content:"\2013";}
+  .faq-item p{padding:0 24px 20px;color:var(--muted);font-size:14.5px;}
+
+  /* ---- page hero (subpages) ---- */
+  .phero{position:relative;color:#fff;background:var(--deep);}
+  .phero-bg{position:absolute;inset:0;background-position:center 30%;background-size:cover;opacity:.38;}
+  .phero-fade{position:absolute;inset:0;background:linear-gradient(95deg,rgba(7,10,51,.96) 25%,rgba(13,17,85,.7) 60%,rgba(7,10,51,.4));}
+  .phero-in{position:relative;max-width:1220px;margin:0 auto;padding:88px 32px 96px;}
+  .phero h1{font-size:clamp(44px,6vw,84px);color:#fff!important;margin:8px 0 18px;}
+  .phero h1 .sky{color:var(--sky);}
+  .phero .sub{font-size:17px;color:#cdd6ef;max-width:640px;margin-bottom:30px;}
+  .crumbs{font-size:12.5px;letter-spacing:1.6px;text-transform:uppercase;color:#8b97bd;font-weight:700;margin-bottom:20px;}
+  .crumbs a:hover{color:var(--sky);}
+  .crumbs b{color:var(--sky);font-weight:700;}
+
+  /* ---- city grid ---- */
+  .cgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;}
+  .ccard{background:#fff;border:1px solid var(--line);padding:28px;transition:transform .2s,box-shadow .2s;position:relative;overflow:hidden;}
+  .ccard::before{content:"";position:absolute;top:0;left:0;right:0;height:4px;background:var(--navy);transition:background .2s;}
+  .ccard:hover{transform:translateY(-6px);box-shadow:var(--shadow);}
+  .ccard:hover::before{background:var(--sky);}
+  .ccard h3{font-family:var(--dfont);font-weight:700;text-transform:uppercase;letter-spacing:1px;font-size:23px;color:var(--navy);}
+  .ccard p{color:var(--muted);font-size:13.5px;margin:6px 0 14px;}
+  .ccard .go{font-family:var(--dfont);font-weight:600;text-transform:uppercase;letter-spacing:1.6px;font-size:14.5px;color:var(--sky-d);}
+
+
+  /* ---- video crest badge ---- */
+  .media-frame.has-crest{overflow:visible;}
+  .vid-crest{position:absolute;bottom:-30px;left:-26px;width:100px;height:100px;background:#fff;border-bottom:4px solid var(--sky);box-shadow:var(--shadow);display:flex;align-items:center;justify-content:center;padding:10px;z-index:3;}
+  .vid-crest img{max-height:100%;width:auto;}
+  @media (max-width:960px){.vid-crest{left:10px;bottom:-22px;width:78px;height:78px;}}
+  /* ---- reveal ---- */
+  .rv{opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s ease;}
+  .rv.in{opacity:1;transform:none;}
+
+  /* ---- spacing ---- */
+  .sec{padding:110px 32px;}
+  .sec--soft{background:var(--soft);border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
+  .sec--cream{background:var(--cream);border-top:1px solid rgba(13,17,85,.1);border-bottom:1px solid rgba(13,17,85,.1);}
+
+  @media (max-width:960px){
+    nav.links{display:none;}
+    .statstrip-inner{grid-template-columns:1fr 1fr;}
+    .stat{border-bottom:1px solid rgba(13,17,85,.12);}
+    .pgrid,.ggrid,.cgrid,.info-cards{grid-template-columns:1fr;}
+    .split{grid-template-columns:1fr;gap:40px;}
+    .foot-grid{grid-template-columns:1fr 1fr;}
+    .srow{grid-template-columns:86px 1fr;}
+    .srow .stag{grid-column:2;justify-self:start;}
+    .join-form{padding:30px;}
+    .join-form .grid2{grid-template-columns:1fr;}
+    .hero-inner{padding:90px 32px 130px;}
+  }
+</style>
+</head>
+<body>
+<div class="ticker"><div class="ticker-track"><span>FUTSAL TEAMS U9&ndash;U15 <b>&#9917;</b> SOCCER CLASSES AGES 5&ndash;15 <b>&#9917;</b> INSPIRE LABS AUTISM SOCCER <b>&#9917;</b> CHAOS PERFORMANCE LEAGUE &mdash; KELLER, TX <b>&#9917;</b> PLAY MORE <b>&#9917;</b>&nbsp;</span><span>FUTSAL TEAMS U9&ndash;U15 <b>&#9917;</b> SOCCER CLASSES AGES 5&ndash;15 <b>&#9917;</b> INSPIRE LABS AUTISM SOCCER <b>&#9917;</b> CHAOS PERFORMANCE LEAGUE &mdash; KELLER, TX <b>&#9917;</b> PLAY MORE <b>&#9917;</b>&nbsp;</span></div></div>
+<header>
+  <div class="nav">
+    <a href="jogalabs-website.html" class="brand"><img src="https://jogalab.com/wp-content/uploads/2025/10/JOGALABS-PlayMore-e1761587146210.png" alt="Joga Labs &mdash; Play More"></a>
+    <nav class="links">
+      <div class="has-drop">
+        <a href="jogalabs-website.html#programs">Programs</a>
+        <div class="dropdown">
+          <a href="team-labs.html">Futsal Team</a>
+          <a href="soccer-classes.html">Futsal Classes</a>
+          <a href="inspire-labs.html">Autism Soccer</a>
+        </div>
+      </div>
+      <a href="jogalabs-website.html#philosophy">Philosophy</a>
+      <a href="jogalabs-website.html#coach">Coaching</a>
+      <a href="jogalabs-website.html#gallery">Gallery</a>
+      <a href="jogalabs-website.html#schedule">Schedule</a>
+      <a href="locations.html">Locations</a>
+    </nav>
+    <a href="#join-form" class="nav-cta">Join the Team</a>
+  </div>
+</header>
+<section class="phero">
+  <div class="phero-bg" style="background-image:url('assets/img_1434.jpg');"></div><div class="phero-fade"></div>
+  <div class="phero-in">
+    <span class="lbl on-dark">Inspire Labs — Keller & N. Fort Worth</span>
+    <h1 class="d1">Autism Soccer, <span class="sky">Built on Joy.</span></h1>
+    <p class="sub">A vibrant, sports-centered environment where kids build essential skills and confidence — connecting with friends, growing, and enjoying themselves without fear of judgment.</p>
+    <div class="hero-actions"><a href="#join-form" class="btn btn--sky">Join Inspire Labs</a><a href="jogalabs-website.html#programs" class="btn btn--line">All Programs</a></div>
+  </div>
+</section>
+
+<div class="announce">
+  <div class="announce-inner">
+    <p><b>Note</b> Inspire Soccer meets once a week, grouping kids at the same level.</p>
+    <a href="#join-form">Join Now</a>
+  </div>
+</div>
+
+<section class="sec">
+  <div class="wrap">
+    <div class="split">
+      <div class="rv">
+        <span class="lbl">Our Approach</span>
+        <h2 class="d2">Compassion, understanding, and the beautiful game.</h2>
+        <p class="lead" style="margin-top:14px;">Through a fun, supportive soccer-based curriculum, we help children build social skills, confidence, and connection within a group environment.</p>
+        <p class="lead">Every session encourages communication, cooperation, and joy through play. Coach Roberto brings over 8 years of experience working with kids with ASD and ADHD.</p>
+      </div>
+      <div class="media-frame has-crest rv">
+        <div class="vid-crest"><img src="https://jogalab.com/wp-content/uploads/2025/10/Jogalabs-transparent-Logo-296x300.png" alt="Joga Labs FC crest"></div>
+        <iframe src="https://www.youtube.com/embed/U33WlhTRoUs" title="Inspire Labs autism soccer" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec--soft">
+  <div class="wrap">
+    <div class="shead center rv">
+      <span class="lbl">Area of Focus</span>
+      <h2 class="d2">Four key pillars.</h2>
+    </div>
+    <div class="pgrid" style="grid-template-columns:repeat(4,1fr);">
+      <div class="ccard rv"><h3>Group Play</h3><p>Connection and belonging through shared play.</p></div>
+      <div class="ccard rv"><h3>Sharing</h3><p>Learning cooperation and communication naturally.</p></div>
+      <div class="ccard rv"><h3>Teamwork</h3><p>Growing together in a supportive group environment.</p></div>
+      <div class="ccard rv"><h3>Exercise</h3><p>Healthy movement and coordination &mdash; with joy.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <div class="split">
+      <div class="media-frame pad rv"><img src="https://jogalab.com/wp-content/uploads/2025/10/Inspire-Labs-Main-e1760128076858.png" alt="Inspire Labs autism special needs soccer" loading="lazy"></div>
+      <div class="rv">
+        <span class="lbl">How It Works</span>
+        <h2 class="d2">Three simple steps.</h2>
+        <div style="margin-top:20px;">
+          <div class="gpillar"><span class="gnum">01</span><div><b>Register</b><span>Sign up for Inspire Labs using a parent or guardian's name</span></div></div>
+          <div class="gpillar"><span class="gnum">02</span><div><b>We Connect</b><span>We review each registration and contact you to discuss your player's level and any special needs or concerns</span></div></div>
+          <div class="gpillar"><span class="gnum">03</span><div><b>Classes Begin</b><span>Sessions start once 2+ kiddos at the same level are approved</span></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec--soft" id="join-form">
+  <div class="shead center rv">
+    <span class="lbl">Registration</span>
+    <h2 class="d2">Join Inspire Labs</h2>
+    <p>Please register using the parent's or guardian's name. We'll review each registration and contact you; classes start once 2+ kiddos at the same level are approved.</p>
+  </div>
+  <form class="join-form rv" onsubmit="return sendJoin(this,'Inspire Labs (Autism Soccer)')">
+    <div class="grid2">
+      <div><label>First Name <em>*</em></label><input name="first" required></div>
+      <div><label>Last Name <em>*</em></label><input name="last" required></div>
+      <div><label>Email <em>*</em></label><input type="email" name="email" required></div>
+      <div><label>Phone <em>*</em></label><input type="tel" name="phone" required></div>
+      <div><label>Player's Name <em>*</em></label><input name="player" required></div>
+      <div><label>Player's Birthdate <em>*</em></label><input type="date" name="birthdate" required></div>
+      <div><label>Player's Current Age <em>*</em></label><input type="number" min="4" max="18" name="age" required></div>
+      <div><label>Preferred Method of Contact <em>*</em></label>
+        <select name="contactMethod" required>
+          <option value="">Select&hellip;</option><option>Call</option><option>Email</option><option>SMS</option>
+        </select>
+      </div>
+    </div>
+    <label>Message</label>
+    <textarea name="message" rows="4"></textarea>
+    <button type="submit">Join &rarr;</button>
+    <p class="disclaimer">*By registering, you agree to the <a href="https://jogalab.com/terms/" style="color:var(--sky-d);font-weight:700;">website's terms and conditions</a>. Submitting opens your email app &mdash; or call (214) 206-6151.</p>
+  </form>
+</section>
+<section class="cta-panel">
+  <div class="cta-bg"></div><div class="cta-fade"></div>
+  <div class="cta-in">
+    <div class="rv">
+      <h2 class="d1">Every child deserves <span class="sky">The Game.</span></h2>
+      <p>Give your child a supportive place to play, connect, and grow.</p>
+    </div>
+    <a href="#join-form" class="btn btn--sky rv">Join Inspire Labs</a>
+  </div>
+</section>
+<footer>
+  <div class="foot-top">
+  <div class="foot-grid">
+    <div class="foot-brand">
+      <div class="foot-logo"><img src="https://jogalab.com/wp-content/uploads/2025/10/JOGALABS-PlayMore-e1761587146210.png" alt="Joga Labs &mdash; Play More"></div>
+      <p>Joga Labs&reg; is a competitive futsal club for kids U9&ndash;U15 offering futsal teams, soccer classes, and Inspire Labs autism soccer across Keller, Southlake &amp; North Fort Worth, Texas.</p>
+      <div class="foot-social">
+        <a href="https://www.facebook.com/soccertalk" target="_blank" rel="noopener">FB</a>
+        <a href="https://x.com/soccertalkus" target="_blank" rel="noopener">X</a>
+        <a href="https://www.youtube.com/@jogalabs" target="_blank" rel="noopener">YT</a>
+      </div>
+    </div>
+    <div class="foot-col">
+      <h5>Programs</h5>
+      <a href="team-labs.html">Futsal Teams</a>
+      <a href="soccer-classes.html">Soccer Classes</a>
+      <a href="inspire-labs.html">Autism Soccer</a>
+      <a href="jogalabs-website.html#schedule">Game Schedule</a>
+      <a href="jogalabs-website.html#gallery">Gallery</a>
+    </div>
+    <div class="foot-col">
+      <h5>Club</h5>
+      <a href="about.html">About Us</a>
+      <a href="faq.html">FAQs</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="locations.html">Locations</a>
+      <a href="https://jogalab.com/terms/">Terms &amp; Privacy</a>
+    </div>
+    <div class="foot-col">
+      <h5>Areas We Serve</h5>
+      <div class="foot-cities">
+      <a href="keller-tx-futsal.html">Keller, TX</a>
+      <a href="north-fort-worth-tx-futsal.html">North Fort Worth, TX</a>
+      <a href="haslet-tx-futsal.html">Haslet, TX</a>
+      <a href="watauga-tx-futsal.html">Watauga, TX</a>
+      <a href="roanoke-tx-futsal.html">Roanoke, TX</a>
+      <a href="justin-tx-futsal.html">Justin, TX</a>
+      <a href="saginaw-tx-futsal.html">Saginaw, TX</a>
+      <a href="northlake-tx-futsal.html">Northlake, TX</a>
+      <a href="westlake-tx-futsal.html">Westlake, TX</a>
+      <a href="trophy-club-tx-futsal.html">Trophy Club, TX</a>
+      <a href="argyle-tx-futsal.html">Argyle, TX</a>
+      <a href="colleyville-tx-futsal.html">Colleyville, TX</a>
+      <a href="arlington-tx-futsal.html">Arlington, TX</a>
+      </div>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <span>&copy; 2026 Joga Labs&reg;. All Rights Reserved.</span>
+    <span>(214) 206-6151 &middot; info@jogalabs.com</span>
+    <span><a href="https://jogalab.com/sitemap">Sitemap</a> &middot; <a href="https://jogalab.com/terms/">Privacy &amp; Terms</a></span>
+  </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var els = document.querySelectorAll('.rv');
+  if(!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('in')});return;}
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(en){ if(en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target);} });
+  },{threshold:.12});
+  els.forEach(function(e){io.observe(e)});
+})();
+</script>
+<script>
+function sendJoin(f, program){
+  var d = new FormData(f);
+  var lines = ['Program: ' + program];
+  d.forEach(function(v,k){ if(v) lines.push(k.charAt(0).toUpperCase()+k.slice(1) + ': ' + v); });
+  window.location.href = 'mailto:info@jogalabs.com?subject=' +
+    encodeURIComponent('Joga Labs Registration - ' + program) + '&body=' +
+    encodeURIComponent(lines.join('\n'));
+  return false;
+}
+</script>
+</body>
+</html>
