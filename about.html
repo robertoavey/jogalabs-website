@@ -501,9 +501,12 @@
         <!-- MAILERLITE-NEWSLETTER-EMBED-SLOT -->
       </div>
       <script>
-      function jlNews(f){var d=new FormData(f);
-        window.location.href='mailto:info@jogalab.com?subject='+encodeURIComponent('Newsletter Signup - '+d.get('interest'))
-        +'&body='+encodeURIComponent('Please add me to the Joga Labs newsletter.\n\nFirst Name: '+d.get('fname')+'\nLast Name: '+d.get('lname')+'\nEmail: '+d.get('email')+'\nInterested in: '+d.get('interest'));
+      function jlNews(f){var d=new FormData(f),b=f.querySelector('button');b.disabled=true;b.textContent='Signing up\u2026';
+        var fd=new FormData();fd.append('fields[name]',d.get('fname'));fd.append('fields[last_name]',d.get('lname'));
+        fd.append('fields[email]',d.get('email'));fd.append('fields[interest]',d.get('interest'));fd.append('ml-submit','1');fd.append('anticsrf','true');
+        fetch('https://assets.mailerlite.com/jsonp/327445/forms/193465347321366174/subscribe',{method:'POST',body:fd})
+        .then(function(r){return r.json()}).then(function(j){if(j&&j.success!==false){f.innerHTML='<p class="nl-head" style="margin:0">You\u2019re in \u2014 welcome to Joga Labs! \u26bd</p>';}else{throw 0;}})
+        .catch(function(){b.disabled=false;b.textContent='Sign Up';alert('Something went wrong \u2014 please try again or email info@jogalab.com');});
         return false;}
       </script>
     </div>
