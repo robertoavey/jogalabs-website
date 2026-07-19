@@ -33,7 +33,7 @@ Turn the design into a proper WordPress theme: header.php / footer.php from my s
 
 ## 2. Connecting MailerLite
 
-Right now the forms open the visitor's email app addressed to info@jogalabs.com (works everywhere, no backend). To capture leads in MailerLite instead:
+Right now the forms open the visitor's email app addressed to info@jogalab.com (works everywhere, no backend). To capture leads in MailerLite instead:
 
 ### Step 1 — Create the form in MailerLite
 1. MailerLite dashboard → **Forms → Embedded forms → Create**.
