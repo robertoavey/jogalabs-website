@@ -1,0 +1,1112 @@
+[
+ {
+  "Name": "US Youth Futsal (USYF)",
+  "Type": "Organization",
+  "City": "Overland Park",
+  "State": "KS",
+  "Region": "Midwest",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com",
+  "Notes": "Largest US Soccer-affiliated futsal organization — 100+ leagues in 30 states."
+ },
+ {
+  "Name": "U.S. Futsal (USFF)",
+  "Type": "Organization",
+  "City": "Berkeley",
+  "State": "CA",
+  "Region": "West",
+  "Organization": "USFF",
+  "Website": "https://futsal.com",
+  "Notes": "United States Futsal Federation — national & regional championships since 1981."
+ },
+ {
+  "Name": "United Futsal",
+  "Type": "Organization",
+  "City": "Orlando",
+  "State": "FL",
+  "Region": "Southeast",
+  "Organization": "United Futsal",
+  "Website": "https://www.unitedfutsal.com",
+  "Notes": "Premier youth futsal event organization — World Futsal Championships & Champions Cup Series."
+ },
+ {
+  "Name": "National Futsal Premier League (NFPL)",
+  "Type": "League",
+  "City": "Chicago",
+  "State": "IL",
+  "Region": "Midwest",
+  "Organization": "NFPL",
+  "Website": "https://www.nationalfutsalpremierleague.com",
+  "Notes": "Top semi-pro US futsal league (est. 2018) — Men’s & Women’s divisions, USASA-sanctioned."
+ },
+ {
+  "Name": "USYF Academy League",
+  "Type": "League",
+  "City": "National",
+  "State": "National",
+  "Region": "National",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/academy",
+  "Notes": "Highest level of US youth club futsal competition; qualifies for National Academy Cup."
+ },
+ {
+  "Name": "USYF National Championships",
+  "Type": "Tournament",
+  "City": "Richmond",
+  "State": "VA",
+  "Region": "Mid-Atlantic",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/nationals",
+  "Notes": "Jul 3-6, 2026 — U9-U19 boys & girls; qualification via 13 regionals."
+ },
+ {
+  "Name": "U.S. Futsal National Championships",
+  "Type": "Tournament",
+  "City": "National",
+  "State": "National",
+  "Region": "National",
+  "Organization": "USFF",
+  "Website": "https://futsalnationalchampionship.com",
+  "Notes": "USFF flagship national championship."
+ },
+ {
+  "Name": "World Futsal Championships",
+  "Type": "Tournament",
+  "City": "Orlando",
+  "State": "FL",
+  "Region": "Southeast",
+  "Organization": "United Futsal",
+  "Website": "https://www.unitedfutsal.com/event/world-futsal-championships",
+  "Notes": "Jul 14-16, 2026, Orange County Convention Center — largest international youth futsal event in the US."
+ },
+ {
+  "Name": "Champions Cup Series Finals",
+  "Type": "Tournament",
+  "City": "Orlando",
+  "State": "FL",
+  "Region": "Southeast",
+  "Organization": "United Futsal",
+  "Website": "https://www.unitedfutsal.com/champions-cup-series-season-5",
+  "Notes": "Jul 17-19, 2026 — season-long Champions Cup Series finals."
+ },
+ {
+  "Name": "World Futsal Cup",
+  "Type": "Tournament",
+  "City": "National",
+  "State": "National",
+  "Region": "National",
+  "Organization": "United Futsal",
+  "Website": "https://www.unitedfutsal.com/world-futsal-cup",
+  "Notes": "United Futsal international club event."
+ },
+ {
+  "Name": "USYF National Academy Cup",
+  "Type": "Tournament",
+  "City": "National",
+  "State": "National",
+  "Region": "National",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/academy",
+  "Notes": "Championship for USYF Academy League clubs."
+ },
+ {
+  "Name": "USYF Southwest Regional Championships",
+  "Type": "Tournament",
+  "City": "San Diego",
+  "State": "CA",
+  "Region": "West",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/regional-championships",
+  "Notes": "Dec 11-13, 2026 — qualifier for USYF Nationals."
+ },
+ {
+  "Name": "USYF Northern California Regional Championships",
+  "Type": "Tournament",
+  "City": "Sacramento",
+  "State": "CA",
+  "Region": "West",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/regional-championships",
+  "Notes": "Dec 11-13, 2026 — qualifier for USYF Nationals."
+ },
+ {
+  "Name": "USYF South Regional Championships",
+  "Type": "Tournament",
+  "City": "Houston",
+  "State": "TX",
+  "Region": "Southwest",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/regional-championships",
+  "Notes": "Dec 18-20, 2026 — qualifier for USYF Nationals."
+ },
+ {
+  "Name": "USYF Atlantic Regional Championships",
+  "Type": "Tournament",
+  "City": "Manheim",
+  "State": "PA",
+  "Region": "Mid-Atlantic",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/regional-championships",
+  "Notes": "Jan 8-10, 2027 — qualifier for USYF Nationals."
+ },
+ {
+  "Name": "USYF Southeast Regional Championships",
+  "Type": "Tournament",
+  "City": "Fort Myers",
+  "State": "FL",
+  "Region": "Southeast",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/regional-championships",
+  "Notes": "Jan 9-10, 2027 — qualifier for USYF Nationals."
+ },
+ {
+  "Name": "USYF Great Lakes Regional Championships",
+  "Type": "Tournament",
+  "City": "Akron",
+  "State": "OH",
+  "Region": "Midwest",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/regional-championships",
+  "Notes": "Jan 15-18, 2027 — qualifier for USYF Nationals."
+ },
+ {
+  "Name": "USYF South Atlantic Regional Championships",
+  "Type": "Tournament",
+  "City": "Charlotte",
+  "State": "NC",
+  "Region": "Southeast",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/regional-championships",
+  "Notes": "Jan 15-18, 2027 — qualifier for USYF Nationals."
+ },
+ {
+  "Name": "USYF Northeast Regional Championships",
+  "Type": "Tournament",
+  "City": "Boston",
+  "State": "MA",
+  "Region": "Northeast",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/regional-championships",
+  "Notes": "Jan 15-18, 2027 — qualifier for USYF Nationals."
+ },
+ {
+  "Name": "USYF Mid-Atlantic Regional Championships",
+  "Type": "Tournament",
+  "City": "Richmond",
+  "State": "VA",
+  "Region": "Mid-Atlantic",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/regional-championships",
+  "Notes": "Jan 22-24, 2027 — qualifier for USYF Nationals."
+ },
+ {
+  "Name": "USYF North Regional Championships",
+  "Type": "Tournament",
+  "City": "Minneapolis",
+  "State": "MN",
+  "Region": "Midwest",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/regional-championships",
+  "Notes": "Jan 22-24, 2027 — qualifier for USYF Nationals."
+ },
+ {
+  "Name": "USYF Lake Shore Regional Championships",
+  "Type": "Tournament",
+  "City": "Grand Rapids",
+  "State": "MI",
+  "Region": "Midwest",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/regional-championships",
+  "Notes": "Feb 5-7, 2027 — qualifier for USYF Nationals."
+ },
+ {
+  "Name": "USYF Central Regional Championships",
+  "Type": "Tournament",
+  "City": "Overland Park",
+  "State": "KS",
+  "Region": "Midwest",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/regional-championships",
+  "Notes": "Feb 12-14, 2027 — qualifier for USYF Nationals."
+ },
+ {
+  "Name": "USYF Mid-South Regional Championships",
+  "Type": "Tournament",
+  "City": "Nashville",
+  "State": "TN",
+  "Region": "South",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/regional-championships",
+  "Notes": "Dates TBA — qualifier for USYF Nationals."
+ },
+ {
+  "Name": "USYF Midwest Regional Championships",
+  "Type": "Tournament",
+  "City": "St. Louis",
+  "State": "MO",
+  "Region": "Midwest",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/regional-championships",
+  "Notes": "Location/dates TBD — qualifier for USYF Nationals."
+ },
+ {
+  "Name": "U.S. Futsal Northeast Regional Championship",
+  "Type": "Tournament",
+  "City": "Atlantic City",
+  "State": "NJ",
+  "Region": "Mid-Atlantic",
+  "Organization": "USFF",
+  "Website": "https://northeastfutsalchampionship.com",
+  "Notes": "Feb 13-16, 2026, Atlantic City Convention Center."
+ },
+ {
+  "Name": "U.S. Futsal Northwest Regional Championship",
+  "Type": "Tournament",
+  "City": "San Francisco",
+  "State": "CA",
+  "Region": "West",
+  "Organization": "USFF",
+  "Website": "https://northwestfutsalchampionship.com",
+  "Notes": "Feb 27 - Mar 1, 2026, Moscone Center."
+ },
+ {
+  "Name": "United Futsal Regional Championship — Cincinnati",
+  "Type": "Tournament",
+  "City": "Cincinnati",
+  "State": "OH",
+  "Region": "Midwest",
+  "Organization": "United Futsal",
+  "Website": "https://www.unitedfutsal.com/event/regional-championship-cincinnati",
+  "Notes": "Champions Cup Series regional."
+ },
+ {
+  "Name": "Birmingham Futsal",
+  "Type": "League",
+  "City": "Bessemer",
+  "State": "AL",
+  "Region": "South",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "FutsalALA",
+  "Type": "League",
+  "City": "Cullman",
+  "State": "AL",
+  "Region": "South",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Omni Futsal",
+  "Type": "League",
+  "City": "Cullman",
+  "State": "AL",
+  "Region": "South",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Arizona Athletic Grounds League",
+  "Type": "League",
+  "City": "Mesa",
+  "State": "AZ",
+  "Region": "Southwest",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "530 Futsal",
+  "Type": "League",
+  "City": "Chico",
+  "State": "CA",
+  "Region": "West",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "559 Futsal League",
+  "Type": "League",
+  "City": "Visalia",
+  "State": "CA",
+  "Region": "West",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "619 Futsal",
+  "Type": "League",
+  "City": "San Diego",
+  "State": "CA",
+  "Region": "West",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Futsal Factory",
+  "Type": "League",
+  "City": "Sacramento",
+  "State": "CA",
+  "Region": "West",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Los Angeles Futsal League",
+  "Type": "League",
+  "City": "Los Angeles",
+  "State": "CA",
+  "Region": "West",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Tri-Valley Futsal League",
+  "Type": "League",
+  "City": "Pleasanton",
+  "State": "CA",
+  "Region": "West",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Futsal Colorado",
+  "Type": "League",
+  "City": "Denver",
+  "State": "CO",
+  "Region": "West",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Florida Futsal Summer League",
+  "Type": "League",
+  "City": "Deerfield Beach",
+  "State": "FL",
+  "Region": "Southeast",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Naples Futsal",
+  "Type": "League",
+  "City": "Naples",
+  "State": "FL",
+  "Region": "Southeast",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Okeechobee United",
+  "Type": "League",
+  "City": "Okeechobee",
+  "State": "FL",
+  "Region": "Southeast",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Orlando Futsal League",
+  "Type": "League",
+  "City": "Orlando",
+  "State": "FL",
+  "Region": "Southeast",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "South Florida Super League",
+  "Type": "League",
+  "City": "Miami",
+  "State": "FL",
+  "Region": "Southeast",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "GSA Futsal League",
+  "Type": "League",
+  "City": "Snellville",
+  "State": "GA",
+  "Region": "Southeast",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Jaxco Futsal",
+  "Type": "League",
+  "City": "Hoschton",
+  "State": "GA",
+  "Region": "Southeast",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "W9 Futsal League",
+  "Type": "League",
+  "City": "Atlanta",
+  "State": "GA",
+  "Region": "Southeast",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Idaho Futsal",
+  "Type": "League",
+  "City": "Boise",
+  "State": "ID",
+  "Region": "West",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "G3X Futsal",
+  "Type": "League",
+  "City": "Elgin",
+  "State": "IL",
+  "Region": "Midwest",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Gio's Futsal League",
+  "Type": "League",
+  "City": "Chicago",
+  "State": "IL",
+  "Region": "Midwest",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Klicsports Futsal League",
+  "Type": "League",
+  "City": "Naperville",
+  "State": "IL",
+  "Region": "Midwest",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Fort Wayne Futsal",
+  "Type": "League",
+  "City": "Fort Wayne",
+  "State": "IN",
+  "Region": "Midwest",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Futsal Indy",
+  "Type": "League",
+  "City": "Carmel",
+  "State": "IN",
+  "Region": "Midwest",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "NWI Futsal League",
+  "Type": "League",
+  "City": "Hammond",
+  "State": "IN",
+  "Region": "Midwest",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Des Moines Futsal",
+  "Type": "League",
+  "City": "Des Moines",
+  "State": "IA",
+  "Region": "Midwest",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Heartland Futsal",
+  "Type": "League",
+  "City": "Overland Park",
+  "State": "KS",
+  "Region": "Midwest",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "WSF Futsal League",
+  "Type": "League",
+  "City": "Wichita",
+  "State": "KS",
+  "Region": "Midwest",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Louisville Futsal",
+  "Type": "League",
+  "City": "Louisville",
+  "State": "KY",
+  "Region": "South",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Eastern Shore Premier Futsal League",
+  "Type": "League",
+  "City": "Salisbury",
+  "State": "MD",
+  "Region": "Mid-Atlantic",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Massachusetts Futsal Association",
+  "Type": "League",
+  "City": "Marlborough",
+  "State": "MA",
+  "Region": "Northeast",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Western Massachusetts Futsal",
+  "Type": "League",
+  "City": "Chicopee",
+  "State": "MA",
+  "Region": "Northeast",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "East Michigan Futsal",
+  "Type": "League",
+  "City": "Southfield",
+  "State": "MI",
+  "Region": "Midwest",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Ginga Futsal Society League",
+  "Type": "League",
+  "City": "Grand Rapids",
+  "State": "MI",
+  "Region": "Midwest",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Kalamazoo Portage Futsal",
+  "Type": "League",
+  "City": "Paw Paw",
+  "State": "MI",
+  "Region": "Midwest",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Mid Michigan Futsal",
+  "Type": "League",
+  "City": "Southfield",
+  "State": "MI",
+  "Region": "Midwest",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "West Michigan Futsal",
+  "Type": "League",
+  "City": "Grand Rapids",
+  "State": "MI",
+  "Region": "Midwest",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Minnesota Futsal",
+  "Type": "League",
+  "City": "Minneapolis",
+  "State": "MN",
+  "Region": "Midwest",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Northland Futsal League",
+  "Type": "League",
+  "City": "Kansas City",
+  "State": "MO",
+  "Region": "Midwest",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Sarpy County Futsal League",
+  "Type": "League",
+  "City": "Papillion",
+  "State": "NE",
+  "Region": "Midwest",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "South Jersey Futsal",
+  "Type": "League",
+  "City": "Sewell",
+  "State": "NJ",
+  "Region": "Mid-Atlantic",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Futsal Rochester",
+  "Type": "League",
+  "City": "Rochester",
+  "State": "NY",
+  "Region": "Northeast",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "CNY Futsal",
+  "Type": "League",
+  "City": "Syracuse",
+  "State": "NY",
+  "Region": "Northeast",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Gaffer City FC Futsal",
+  "Type": "League",
+  "City": "Corning",
+  "State": "NY",
+  "Region": "Northeast",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Capital Futsal League",
+  "Type": "League",
+  "City": "Raleigh",
+  "State": "NC",
+  "Region": "Southeast",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "F5 Futsal",
+  "Type": "League",
+  "City": "Charlotte",
+  "State": "NC",
+  "Region": "Southeast",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Wilmington NC Futsal",
+  "Type": "League",
+  "City": "Wilmington",
+  "State": "NC",
+  "Region": "Southeast",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "937 Futsal League",
+  "Type": "League",
+  "City": "Dayton",
+  "State": "OH",
+  "Region": "Midwest",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Greater Columbus Futsal League (GCFL)",
+  "Type": "League",
+  "City": "Columbus",
+  "State": "OH",
+  "Region": "Midwest",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Great Lakes Futsal",
+  "Type": "League",
+  "City": "Akron",
+  "State": "OH",
+  "Region": "Midwest",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Bucks Futsal",
+  "Type": "League",
+  "City": "Southampton",
+  "State": "PA",
+  "Region": "Mid-Atlantic",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Philadelphia Futsal League",
+  "Type": "League",
+  "City": "Philadelphia",
+  "State": "PA",
+  "Region": "Mid-Atlantic",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Pittsburgh Futsal League",
+  "Type": "League",
+  "City": "Pittsburgh",
+  "State": "PA",
+  "Region": "Mid-Atlantic",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Elite Futsal Charleston",
+  "Type": "League",
+  "City": "Charleston",
+  "State": "SC",
+  "Region": "Southeast",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Grand Strand Futsal Association",
+  "Type": "League",
+  "City": "Myrtle Beach",
+  "State": "SC",
+  "Region": "Southeast",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Soda City Futsal",
+  "Type": "League",
+  "City": "Irmo",
+  "State": "SC",
+  "Region": "Southeast",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Memphis Futsal League",
+  "Type": "League",
+  "City": "Memphis",
+  "State": "TN",
+  "Region": "South",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Austin Youth Futsal League",
+  "Type": "League",
+  "City": "Austin",
+  "State": "TX",
+  "Region": "Southwest",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Central Virginia Futsal",
+  "Type": "League",
+  "City": "Fredericksburg",
+  "State": "VA",
+  "Region": "Mid-Atlantic",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Futsal RVA",
+  "Type": "League",
+  "City": "Richmond",
+  "State": "VA",
+  "Region": "Mid-Atlantic",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Hampton Roads Futsal League",
+  "Type": "League",
+  "City": "Newport News",
+  "State": "VA",
+  "Region": "Mid-Atlantic",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Metro Futsal",
+  "Type": "League",
+  "City": "Springfield",
+  "State": "VA",
+  "Region": "Mid-Atlantic",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Futsal West Virginia",
+  "Type": "League",
+  "City": "Morgantown",
+  "State": "WV",
+  "Region": "Mid-Atlantic",
+  "Organization": "USYF",
+  "Website": "https://www.usyouthfutsal.com/league-directory",
+  "Notes": "USYF league affiliate."
+ },
+ {
+  "Name": "Anthem Futsal",
+  "Type": "Club / Team",
+  "City": "Rancho Cordova",
+  "State": "CA",
+  "Region": "West",
+  "Organization": "NFPL",
+  "Website": "https://www.nationalfutsalpremierleague.com",
+  "Notes": "California Division (M+W) — Omni Arena"
+ },
+ {
+  "Name": "Bay Area Footy PD",
+  "Type": "Club / Team",
+  "City": "Redwood City",
+  "State": "CA",
+  "Region": "West",
+  "Organization": "NFPL",
+  "Website": "https://www.nationalfutsalpremierleague.com",
+  "Notes": "California Division (M+W)"
+ },
+ {
+  "Name": "HBK Futsal",
+  "Type": "Club / Team",
+  "City": "San Jose",
+  "State": "CA",
+  "Region": "West",
+  "Organization": "NFPL",
+  "Website": "https://www.nationalfutsalpremierleague.com",
+  "Notes": "California Division (M+W)"
+ },
+ {
+  "Name": "Three Sixty Sala",
+  "Type": "Club / Team",
+  "City": "Antioch",
+  "State": "CA",
+  "Region": "West",
+  "Organization": "NFPL",
+  "Website": "https://www.nationalfutsalpremierleague.com",
+  "Notes": "California Division (M+W)"
+ },
+ {
+  "Name": "Brusa FC",
+  "Type": "Club / Team",
+  "City": "Phoenix",
+  "State": "AZ",
+  "Region": "Southwest",
+  "Organization": "NFPL",
+  "Website": "https://www.nationalfutsalpremierleague.com",
+  "Notes": "Southwest Division — NFPL champions 2024-25 & 2025-26"
+ },
+ {
+  "Name": "Los Yunaites",
+  "Type": "Club / Team",
+  "City": "Albuquerque",
+  "State": "NM",
+  "Region": "Southwest",
+  "Organization": "NFPL",
+  "Website": "https://www.nationalfutsalpremierleague.com",
+  "Notes": "Southwest Division"
+ },
+ {
+  "Name": "NM Flagship Futsal",
+  "Type": "Club / Team",
+  "City": "Rio Rancho",
+  "State": "NM",
+  "Region": "Southwest",
+  "Organization": "NFPL",
+  "Website": "https://www.nationalfutsalpremierleague.com",
+  "Notes": "Southwest Division — 2025-26 runner-up"
+ },
+ {
+  "Name": "Santa Fe Gloom",
+  "Type": "Club / Team",
+  "City": "Santa Fe",
+  "State": "NM",
+  "Region": "Southwest",
+  "Organization": "NFPL",
+  "Website": "https://www.nationalfutsalpremierleague.com",
+  "Notes": "Southwest Division"
+ },
+ {
+  "Name": "Capital Futsal",
+  "Type": "Club / Team",
+  "City": "Washington",
+  "State": "DC",
+  "Region": "Mid-Atlantic",
+  "Organization": "NFPL",
+  "Website": "https://www.nationalfutsalpremierleague.com",
+  "Notes": "Midwest Division"
+ },
+ {
+  "Name": "Futsal Factory Academy",
+  "Type": "Club / Team",
+  "City": "Dexter",
+  "State": "MI",
+  "Region": "Midwest",
+  "Organization": "NFPL",
+  "Website": "https://www.nationalfutsalpremierleague.com",
+  "Notes": "Midwest Division — 2024-25 runner-up"
+ },
+ {
+  "Name": "Inter Detroit",
+  "Type": "Club / Team",
+  "City": "Detroit",
+  "State": "MI",
+  "Region": "Midwest",
+  "Organization": "NFPL",
+  "Website": "https://www.nationalfutsalpremierleague.com",
+  "Notes": "Midwest Division"
+ },
+ {
+  "Name": "MitWest Futsal Club",
+  "Type": "Club / Team",
+  "City": "Chicago",
+  "State": "IL",
+  "Region": "Midwest",
+  "Organization": "NFPL",
+  "Website": "https://www.nationalfutsalpremierleague.com",
+  "Notes": "Midwest Division"
+ },
+ {
+  "Name": "Grand Rapids OLé",
+  "Type": "Club / Team",
+  "City": "Grand Rapids",
+  "State": "MI",
+  "Region": "Midwest",
+  "Organization": "NFPL",
+  "Website": "https://www.nationalfutsalpremierleague.com",
+  "Notes": "NFPL champions 2021-22 & 2023-24."
+ },
+ {
+  "Name": "Columbus Futsal",
+  "Type": "Club / Team",
+  "City": "Columbus",
+  "State": "OH",
+  "Region": "Midwest",
+  "Organization": "NFPL",
+  "Website": "https://www.nationalfutsalpremierleague.com",
+  "Notes": "NFPL 2021-22 runner-up; women’s division founding club."
+ },
+ {
+  "Name": "FC Tryzub",
+  "Type": "Club / Team",
+  "City": "Philadelphia",
+  "State": "PA",
+  "Region": "Mid-Atlantic",
+  "Organization": "NFPL",
+  "Website": "https://www.nationalfutsalpremierleague.com",
+  "Notes": "NFPL champions 2022-23."
+ },
+ {
+  "Name": "Colorado Futsal Academy",
+  "Type": "Club / Team",
+  "City": "Denver",
+  "State": "CO",
+  "Region": "West",
+  "Organization": "NFPL",
+  "Website": "https://www.nationalfutsalpremierleague.com",
+  "Notes": "NFPL 2023-24 runner-up."
+ },
+ {
+  "Name": "Ann Arbor Mudpuppies",
+  "Type": "Club / Team",
+  "City": "Ann Arbor",
+  "State": "MI",
+  "Region": "Midwest",
+  "Organization": "NFPL",
+  "Website": "https://www.nationalfutsalpremierleague.com",
+  "Notes": "NFPL 2018 runner-up."
+ },
+ {
+  "Name": "Joga Labs FC",
+  "Type": "Club / Team",
+  "City": "Keller",
+  "State": "TX",
+  "Region": "Southwest",
+  "Organization": "Independent",
+  "Website": "https://jogalab.com",
+  "Notes": "Competitive youth futsal club — U9-U15 select teams (Black & Red squads), Chaos Indoor Futsal League. Also soccer classes ages 5-15 and Inspire Labs autism soccer."
+ },
+ {
+  "Name": "Chaos Indoor Futsal League",
+  "Type": "League",
+  "City": "Keller",
+  "State": "TX",
+  "Region": "Southwest",
+  "Organization": "Independent",
+  "Website": "https://scheduler.leaguelobster.com/o/363659/chaos-sports-performance-futsal/",
+  "Notes": "Year-round youth futsal league at Chaos Sports Performance, 5701 Egg Farm Rd, Fort Worth, TX 76244."
+ }
+]
