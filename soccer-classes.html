@@ -533,15 +533,20 @@
 })();
 </script>
 <script>
-function sendJoin(f, program){
-  var d = new FormData(f);
-  var lines = ['Program: ' + program];
-  d.forEach(function(v,k){ if(v) lines.push(k.charAt(0).toUpperCase()+k.slice(1) + ': ' + v); });
-  window.location.href = 'mailto:info@jogalab.com?subject=' +
-    encodeURIComponent('Joga Labs Registration - ' + program) + '&body=' +
-    encodeURIComponent(lines.join('\n'));
-  return false;
-}
+function sendJoin(f,label){
+      var EP={'General Contact':'193614731583423759','Futsal Team (Team Labs)':'193614840905861091','Futsal Classes':'193614875509916726','Inspire Labs (Autism Soccer)':'193614906846611004'};
+      var id=EP[label]||'193614731583423759';
+      var map={name:'name',first:'name',last:'last_name',email:'email',phone:'phone',player:'players_name',experience:'players_experience',birthdate:'players_birthdate_mmddyyyy',age:'players_current_age',contactMethod:'preferred_method_of_contact',message:'message'};
+      var d=new FormData(f),fd=new FormData();
+      d.forEach(function(v,k){if(v&&map[k])fd.append('fields['+map[k]+']',v);});
+      fd.append('ml-submit','1');fd.append('anticsrf','true');
+      var b=f.querySelector('button[type="submit"]')||f.querySelector('button');
+      if(b){b.disabled=true;b.textContent='Sending…';}
+      fetch('https://assets.mailerlite.com/jsonp/327445/forms/'+id+'/subscribe',{method:'POST',body:fd})
+      .then(function(r){return r.json()}).then(function(j){if(j&&j.success!==false){f.innerHTML='<p style="font-weight:700;font-size:18px">✅ Got it! Check your inbox — a confirmation from Joga Labs is on its way, and Coach Roberto will follow up within 24 hours.</p>';}else{throw 0;}})
+      .catch(function(){if(b){b.disabled=false;b.textContent='Submit';}alert('Something went wrong — please try again or text Coach Roberto at (817) 546-5994');});
+      return false;
+    }
 </script>
 <script>
 document.querySelectorAll('nav.links a').forEach(function(a){a.addEventListener('click',function(){document.body.classList.remove('nav-open');});});
