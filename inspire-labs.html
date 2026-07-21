@@ -485,7 +485,7 @@
     <div class="foot-col">
       <h5>Programs</h5>
       <a href="team-labs.html">Futsal Teams</a>
-      <a href="soccer-classes.html">Soccer Classes</a>
+      <a href="soccer-classes.html">Futsal Classes &amp; Soccer</a>
       <a href="inspire-labs.html">Autism Soccer</a>
       <a href="jogalabs-website.html#schedule">Game Schedule</a>
       <a href="results.html">Past Results</a>
@@ -519,23 +519,14 @@
       <div class="nlbox">
         <p class="nl-head">Get the most recent news about Joga Labs!</p>
         <form class="nl-form" onsubmit="return jlNews(this)">
-          <input name="fname" placeholder="First Name" required aria-label="First Name">
-          <input name="lname" placeholder="Last Name" required aria-label="Last Name">
           <input type="email" name="email" placeholder="Email" required aria-label="Email">
-          <select name="interest" required aria-label="Interest" onchange="this.classList.add('filled')">
-            <option value="" disabled selected>I&rsquo;m interested in&hellip;</option>
-            <option>Futsal Team</option>
-            <option>Classes</option>
-            <option>Autism Soccer</option>
-          </select>
           <button type="submit">Sign Up</button>
         </form>
         <!-- MAILERLITE-NEWSLETTER-EMBED-SLOT -->
       </div>
       <script>
       function jlNews(f){var d=new FormData(f),b=f.querySelector('button');b.disabled=true;b.textContent='Signing up\u2026';
-        var fd=new FormData();fd.append('fields[name]',d.get('fname'));fd.append('fields[last_name]',d.get('lname'));
-        fd.append('fields[email]',d.get('email'));fd.append('fields[interest]',d.get('interest'));fd.append('ml-submit','1');fd.append('anticsrf','true');
+        var fd=new FormData();fd.append('fields[email]',d.get('email'));fd.append('ml-submit','1');fd.append('anticsrf','true');
         fetch('https://assets.mailerlite.com/jsonp/327445/forms/193465347321366174/subscribe',{method:'POST',body:fd})
         .then(function(r){return r.json()}).then(function(j){if(j&&j.success!==false){f.innerHTML='<p class="nl-head" style="margin:0">You\u2019re in \u2014 welcome to Joga Labs! \u26bd</p>';}else{throw 0;}})
         .catch(function(){b.disabled=false;b.textContent='Sign Up';alert('Something went wrong \u2014 please try again or email info@jogalab.com');});
